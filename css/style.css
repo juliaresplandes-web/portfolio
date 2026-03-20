@@ -1,0 +1,27 @@
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    color:darkblue
+}
+
+h2{
+    color: darkred;
+}
+
+nav{
+    background-color: black;
+}
+
+nav a {
+    color:white
+}
+
+
+section{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
