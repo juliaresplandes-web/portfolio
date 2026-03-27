@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: lightgrey;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', Arial, Helvetica, sans-serif;
@@ -24,12 +30,22 @@ nav a {
     margin: 15px;
 }
 
+nav a:hover{
+    color: rgb(230, 179, 230);
+}
+
 
 section{
     background-color: white;
     padding: 20px;
     margin: 20px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
 }
+section:hover{
+    border: 2px solid darkmagenta;
+}
+
 
 #inicio{
     background-color: lightblue;
@@ -41,4 +57,13 @@ section{
 
 .cabecalho{
     text-align: center;
+}
+.foto{
+    border-radius: 10px;
+}
+
+
+main{
+    max-width: 900px;
+    margin: auto;
 }
